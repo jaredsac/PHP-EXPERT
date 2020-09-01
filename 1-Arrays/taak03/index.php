@@ -29,6 +29,7 @@ $medewerkers = [
 ];
 
 foreach ($medewerkers as $medewerkersdata) {
-  echo "<h2>" . $medewerkersdata['voornaam'] . "\n" . $medewerkersdata['achternaam'] . "\n" . "is een" . "\n" . $medewerkersdata['functie'] . "</h2>";
+  echo "<h2>" . $medewerkersdata['voornaam'] . "\n" . $medewerkersdata['achternaam'] . "\n" . 
+  "is een" . "\n" . $medewerkersdata['functie'] . "</h2>";
 }
 ?>
