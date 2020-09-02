@@ -28,7 +28,7 @@ $medewerkers = [
     ]
   ];
 
-     for( ){
-
-     }
-?>
+    for ($i=0; $i <=4 ; $i++) { 
+      echo $medewerkers[$i]['voornaam']. $medewerkers[$i]['achternaam']. "\n" .
+      "is een " . $medewerkers[$i]['functie']."<br>";
+    }
