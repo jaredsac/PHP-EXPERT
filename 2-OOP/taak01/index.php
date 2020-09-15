@@ -7,6 +7,6 @@ class Auto{
   public $brandstof;
 }
 
-$nieuweuAto = new Auto(); 
+$nieuweAuto = new Auto(); 
 
 $nogEenNieuweAuto = new Auto();
