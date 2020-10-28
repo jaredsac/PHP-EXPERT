@@ -13,3 +13,4 @@ $statement->bindParam(":email", $email);
 $statement->bindParam(":status", $status);
 $user = $statement->fetch();
 
+<kbd></kbd>
