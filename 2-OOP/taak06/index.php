@@ -24,4 +24,4 @@ $wolly = new Robot();
 $wolly->naam = 'Wol-e';
 $wolly->voortstuwing = 'lopend';
 $wolly->setSound('boopbeep');
-echo $wally->getSound();
+echo $wolly->getSound();
