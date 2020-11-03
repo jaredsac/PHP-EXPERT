@@ -1,7 +1,7 @@
 <?php
     require 'database.php';
 
-    $sql = "SELECT *FROM superheroes limit 10";
+    $sql = "SELECT *FROM superheroes limit 30";
     $statement = $db_conn->prepare($sql);
     $statement->execute();
     $database_gegevens = $statement->fetchAll(PDO::FETCH_ASSOC);
