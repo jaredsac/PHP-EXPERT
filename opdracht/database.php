@@ -1,5 +1,5 @@
 <?php
 
 $user= 'root';$pass = '';
-$db_conn = new PDO('mysql:host=localhost;dbname=voetbalclubASD', $user, $pass);
+$db_conn = new PDO('mysql:host=localhost;dbname=phpexpert', $user, $pass);
 
