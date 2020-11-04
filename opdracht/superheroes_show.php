@@ -10,12 +10,13 @@ $statement->bindParam(":ph_id", $id);
 $statement->execute();
 $database_gegevens = $statement->fetch(PDO::FETCH_ASSOC);
 ?>
-<a href="superheroes_index.php">TERUG!</a>
+<a href="superheroes_index.php">Back to all Heroes</a>
+<h4 class="display-4"> Superheroes Info</h4>
 <table class="table">
-    <?php foreach($database_gegevens as $key => $hero):?>
+    <?php foreach($database_gegevens as $key => $heroes):?>
         <tr>
             <th><?php echo $key . ":" ?></th> 
-            <td><?php echo $hero; ?></td>
+            <td><?php echo $heroes; ?></td>
         </tr>
     <?php endforeach;?>
 </table>
